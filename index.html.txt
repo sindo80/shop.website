@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه پوشاک</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="products.html">محصولات</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>به فروشگاه پوشاک ما خوش آمدید!</h1>
+        <p>لباس‌های مد روز برای شما!</p>
+        <a href="products.html" class="cta-button">خرید کنید</a>
+    </section>
+
+    <section class="products">
+        <h2>محصولات پرفروش</h2>
+        <div class="product-grid">
+            <!-- محصول 1 -->
+            <div class="product-card">
+                <img src="shirt1.jpg" alt="پیراهن">
+                <h3>پیراهن کتان مردانه</h3>
+                <p>قیمت: 200,000 تومان</p>
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+            </div>
+            <!-- محصول 2 -->
+            <div class="product-card">
+                <img src="shirt2.jpg" alt="پیراهن">
+                <h3>پیراهن پنبه‌ای زنانه</h3>
+                <p>قیمت: 150,000 تومان</p>
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+            </div>
+            <!-- محصول 3 -->
+            <div class="product-card">
+                <img src="jacket1.jpg" alt="ژاکت">
+                <h3>ژاکت پشمی</h3>
+                <p>قیمت: 400,000 تومان</p>
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 فروشگاه پوشاک. تمام حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
